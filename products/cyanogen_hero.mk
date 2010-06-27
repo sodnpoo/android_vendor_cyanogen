@@ -41,6 +41,6 @@ endif
 include frameworks/base/data/sounds/AudioPackage4.mk 
 include vendor/htc/hero/device_hero.mk
 
-PRODUCT_COPY_FILES +=  \
-    vendor/htc/hero/media/bootanimation.zip:system/media/bootanimation.zip
+#PRODUCT_COPY_FILES +=  \
+#    vendor/htc/hero/media/bootanimation.zip:system/media/bootanimation.zip
 
