@@ -44,3 +44,8 @@ include vendor/htc/hero/device_hero.mk
 #PRODUCT_COPY_FILES +=  \
 #    vendor/htc/hero/media/bootanimation.zip:system/media/bootanimation.zip
 
+#build jit but disable by default
+WITH_JIT := true
+PRODUCT_PROPERTY_OVERRIDES += dalvik.vm.execution-mode=int:fast
+#PRODUCT_PROPERTY_OVERRIDES += dalvik.vm.execution-mode=int:jit
+
