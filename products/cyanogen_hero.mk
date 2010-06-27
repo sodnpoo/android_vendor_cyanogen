@@ -49,3 +49,6 @@ WITH_JIT := true
 PRODUCT_PROPERTY_OVERRIDES += dalvik.vm.execution-mode=int:fast
 #PRODUCT_PROPERTY_OVERRIDES += dalvik.vm.execution-mode=int:jit
 
+# Build WebKit with V8
+JS_ENGINE := v8
+
