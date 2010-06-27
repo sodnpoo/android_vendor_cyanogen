@@ -49,7 +49,7 @@ PRODUCT_PACKAGES += \
     DeskClock \
     DrmProvider \
     Email \
-    Gallery \
+    Gallery3D \
     GlobalSearch \
     Mms \
     Music \
@@ -234,3 +234,4 @@ PRODUCT_LOCALES := \
     vi_VN \
     zh_CN \
     zh_TW 
+
